@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as py
 
 import streamlit as st
-import plotly.express as px
+
 
 df = pd.read_csv('consolidated_data.csv')
 df.shape
